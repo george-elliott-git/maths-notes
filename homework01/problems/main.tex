@@ -1,0 +1,13 @@
+% main.tex
+\documentclass{article}
+\usepackage{subfiles} 
+
+\begin{document}
+\subfile{section1.tex}
+\end{document}
+
+% section1.tex
+\documentclass[main.tex]{subfiles}
+\begin{document}
+This is the content of section 1.
+\end{document}
